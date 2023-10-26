@@ -3,7 +3,7 @@ import Sidebar from './Sidebar'
 import Content from './Content'
 import SyllabusBar from './SyllabusBar'
 import QuestionAnalysis from './QuestionAnalysis'
-import ModalBox from './ModalBox'
+
 
 const Dashboard = () => {
   const [values, setValues] = useState({

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import LineCharts from './LineCharts';
 import ModalBox from './ModalBox';
-// import './Content.css'; // Import your CSS file
+
 
 const Content = ({ values, setValues }) => {
   const [modal, setModal] = useState(false);
@@ -44,7 +44,8 @@ const Content = ({ values, setValues }) => {
             <span className='circle'>✅</span>
             <div className="answer_no">
               <span>{values.answer}/15</span>
-              <span>CORRECT ANSWERS</span>
+                          <span>CORRECT ANSWERS</span>
+                          
             </div>
           </div>
         </div>

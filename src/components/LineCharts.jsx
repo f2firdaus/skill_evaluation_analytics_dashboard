@@ -3,11 +3,11 @@ import { Chart } from "chart.js";
 import annotationPlugin from "chartjs-plugin-annotation";
 import { Line } from "react-chartjs-2";
 
-// import styles from "../styles/ComparisonGraph.module.css";
+
 
 Chart.register(annotationPlugin);
 
-function LineCharts({percentile,average}) {
+const LineCharts=({percentile,average})=> {
   
   
   const chartData = {

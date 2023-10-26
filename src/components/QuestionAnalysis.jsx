@@ -2,7 +2,7 @@ import "chart.js/auto";
 import { Doughnut } from "react-chartjs-2";
 
 
-function QuestionAnalysis({answers}) {
+const QuestionAnalysis=({answers}) => {
    
   const chartData = {
     datasets: [
